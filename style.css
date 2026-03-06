@@ -1,0 +1,62 @@
+body {
+  font-family: "Space Mono", monospace;
+  margin: 40px auto;      
+  max-width: 900px;       
+  color: #e6ded6;
+
+  background: linear-gradient(-45deg, #3d2770, #463b47de);
+  background-size: 400% 400%;
+  animation: gradientMove 10s ease infinite;
+}
+
+h1, h2 {
+  color: #1b1625;
+}
+
+a {
+  text-decoration: none;
+  color: #00aeff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.active {
+  font-weight: bold;
+  color: black;
+}
+
+img {
+  margin-bottom: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 8px;
+  vertical-align: top;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+form {
+  max-width: 500px;
+  margin: 40px auto;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 14px;
+}
